@@ -1,0 +1,212 @@
+
+/* ----------------------------------------------------------
+**
+PAGE SPECIFIC 
+**
+----------------------------------------------------------*/
+
+/* Home */
+/* ----------------------------------------------------------*/
+.main{
+  background: transparent url(/assets/img/poster-forest-small.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+.home{
+  padding: 50px 0;
+   
+  h1{
+    font-weight: bold !important; 
+    font-family: $heading-font; 
+    font-size: 64px;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 100px 0 100px;
+    font-weight: 100;
+    color: white;
+  }
+  h2{
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: center;
+
+    opacity: .5;
+    max-width: 540px; 
+    margin: 0px auto 0px;
+    font-weight: 100;
+  }
+}
+
+.work{
+  padding: 100px 0;
+  h2{
+    font-family: $heading-font; 
+    font-size: 48px;
+    color: $font-color;
+    text-align: center;
+    margin: 0px 0px 100px;
+  }
+  .caption{
+    position: absolute;
+    bottom: -50%; 
+    height: auto;
+    left: 0;
+    right: 0; 
+    background: rgba(black, .7);
+    display: block;
+    @include transition(all 0.3s ease-in-out 0s);
+    padding: 10px;
+
+    h3, p{
+      color: white;
+      margin: 0px 10px; 
+    } 
+    h3{
+      font-family: $heading-font;
+      font-size: 18px;
+      margin: 0px;
+      font-weight: normal;
+    }
+    p{
+      font-family: $primary-font;
+      font-size: 14px;
+      margin: 5px 0; 
+      color: rgba(white, .7);
+      line-height: 1.2em;
+    }
+
+  }
+  .thumbnail{
+    background: transparent; 
+    position: relative;
+    padding: 0;
+    border: none;
+    margin-bottom: 30px;
+    overflow: hidden;
+    max-height: 232px;
+    @media (min-width: 960px){max-height: 190px;} 
+    &:hover{
+      .caption{
+        display: block;
+        bottom: 0;
+      }
+    }
+  }
+  
+   
+}
+
+.profile{
+  padding: 0px 0 100px;
+  color: $font-color;
+  .avatar img{
+    border-radius: 80px;
+    height: 120px;
+    width: 120px; 
+    margin: 20px auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+  h2{
+    font-family: $heading-font; 
+    font-size: 48px;
+    text-align: center;
+    margin: 50px 0;
+  }
+  h3{
+    font-size: 19px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.8em;
+    font-weight: normal;
+    font-family: $primary-font; 
+    text-align: center;
+
+  }
+}
+.page{
+  article{
+    font-size: 20px;
+    line-height: 1.5em;
+    max-width: 760px;
+    margin: auto;
+  }
+  .img-gallery{
+    text-align: justify;
+    img, .iphone{
+      display: inline-block;
+      vertical-align: top;
+    }
+    &:after{
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+    &.outline img{
+      border: 1px solid #bbb;
+    }
+    
+  }
+  .iphone{
+      background: transparent url(/assets/img/iphone.svg) no-repeat center center;
+      background-size: contain;
+      height: 760px;
+      width: 360px;
+      display: block;
+      position: relative;
+      .canvas{
+        position: absolute;
+        top: 112px;
+        left: 29px;
+        right: 23px;
+        bottom: 107px;
+        overflow: hidden;
+      }
+      img{
+        width: 307px;
+      }
+    }
+  .page-hero{
+    padding: 50px 0;
+    position: relative;
+    .back-btn{
+      background: transparent url(/assets/img/arrow-left.svg) no-repeat center center;
+      position: fixed;
+      width: 39px;
+      height: 27px;
+      left: 5%;
+      top: 56px;
+    }
+    .site-title{
+      height: 60px;
+    }
+  }
+  h3{
+    font-family: $heading-font; 
+    font-size: 28px;
+    margin: 60px 0 20px;
+  }
+  .content{
+    color: $font-color;
+  }
+  hr{
+    background: rgba(black, 0.1);
+    border-color: rgba(black, 0.1);
+  }
+}
+
+.tint {
+  img{
+    display: block;
+    -webkit-filter: grayscale(90%);
+    -moz-filter: grayscale(90%);
+    filter: grayscale(90%); 
+    transition: all .3s ease-in-out;
+    opacity: .4;
+    &:hover{
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);  
+      opacity: 1;  
+    }   
+  }
+}

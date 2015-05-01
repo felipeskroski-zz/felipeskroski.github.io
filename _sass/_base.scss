@@ -1,0 +1,91 @@
+/* Base */
+/* ----------------------------------------------------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+  font-family: $primary-font;
+  font-size: 1.6em;
+  color: $font-color;
+  background-color: $bg-color;
+  padding: 0px 0 0;
+  margin: 0 0 0px;
+  line-height: 2em;
+  
+}
+body.bg-neutral{
+  color: $font-color;
+  background-color: $bg-color;
+}
+
+a{
+  color: $link-color;
+  &:hover{
+    color: $link-color;
+    text-decoration: underline; 
+  }
+}
+h1{font-size: 48px; font-family: $heading-font; }
+h2{font-size: 36px; font-family: $heading-font;}
+p{margin: 30px 0; color: $font-color;}
+.page-title{
+  font-size: 64px;
+  text-align: center;
+  margin: 50px 0px 20px;
+}
+.page-intro{
+  font-family: $heading-font;
+  text-align: center;
+  font-size: 24px;
+}
+.centered{
+  text-align: center;
+  *{
+    text-align: center;
+  }
+}
+article p {
+  margin-top: 0;
+}
+hr{
+  background: rgba(black, 0.1);
+  border-color: rgba(black, 0.1);
+  &.gap{
+    margin-top: 100px;
+  }
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  font-size: .8em;
+  font-family: $primary-font;
+}
+
+
+
+/* common elements */
+/* ----------------------------------------------------------*/
+.site-title{
+  background: transparent url(/assets/img/logo-small.png) no-repeat center center;
+  height: 80px;
+  width: 100%;
+  background-size: auto 100%;
+  display: block;
+}
+nav{
+  position: absolute; 
+  top: 30px; 
+  right: 0px; 
+  font-family: $primary-font;
+  font-size: 16px;
+  a{
+    color: $link-color;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+
+}

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="page">
+  <div class="page-hero">
+    <div class="container">
+      <a class="back-btn text-hide" href="{{ site.baseurl }}/#work">Back to homepage</a>
+      <a class="site-title text-hide" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <h1 class="page-title">{{page.title}}</h1>
+      <p class="page-intro">{{page.description}}</p>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <article>
+            {{content}}
+          </article>
+      </div>
+    </div>
+  </div>
+</div>

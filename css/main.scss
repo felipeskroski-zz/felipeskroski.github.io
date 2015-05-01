@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+/* Mixins */
+/* ----------------------------------------------------------*/
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin fontFace($family,$src,$style: normal,$weight: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$src}.eot'); // IE9 compat
+    src: url('#{$src}.eot?#iefix') format('embedded-opentype'), // IE8 and below
+      url('#{$src}.woff') format('woff'), // standards
+      url('#{$src}.ttf') format('truetype'), // Safari, Android, iOS
+      url('#{$src}.svg##{$family}') format('svg'); // legacy iOS
+
+    font-style: $style;
+    font-weight: $weight;
+  }
+}
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+/* Fonts */
+/* ----------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|Lora:400,700,400italic|Inconsolata:400,700);
+@include fontFace("geomanist", "/assets/geomanist/geomanist-bold-webfont", "normal", "bold");
+@include fontFace("geomanist", "/assets/geomanist/geomanist-regular-webfont", "normal", "normal");
+
+
+/* Variables */
+/* ----------------------------------------------------------*/
+$bg-color: #efefef;
+$font-color: #444;
+$body-color: #efefef;
+$link-color: blue;
+$heading-font: 'geomanist', Helvetica, Arial, sans-serif;
+$primary-font: 'Lora', Helvetica, Arial, sans-serif;
+$secondary-font: 'Inconsolata', Courier, monospace;
+
+
+
+
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
