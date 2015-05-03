@@ -6,25 +6,30 @@ description: Mobile app for personal trainers to track their client's performanc
 cover-image: /assets/img/fita/cover.jpg
 categories: [work, web, mobile]
 ---
-
-<div class="img-gallery outline">
-      <img src="/assets/img/fita/Login.png" alt="fita home" width="30%">
-      <img src="/assets/img/fita/Home.png" alt="fita home" width="30%">
- 
-      <img src="/assets/img/fita/Milestone.png" alt="fita milestone" width="30%">
-
-
+<div class="row outline">
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/fita/Login.png" alt="fita home" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/fita/Home.png" alt="fita home" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/fita/Milestone.png" alt="fita milestone" >
+  </div>
 </div>
 
-<div class="img-gallery outline">
-      <img src="/assets/img/fita/Task-time.png" alt="fita home" width="30%">
-      <img src="/assets/img/fita/Task-sets.png" alt="fita home" width="30%">
-      
- 
-      <img src="/assets/img/fita/help.png" alt="fita milestone" width="30%">
-
-
+<div class="row outline">
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/fita/Task-time.png" alt="fita home" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/fita/Task-sets.png" alt="fita home" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/fita/help.png" alt="fita milestone" >
+  </div>
 </div>
+
 An iOS app for personal trainers and their clients. Clients login to see their exercise routines for the week, Personal trainer tracks results weekly and adjust the programs through a web interface
 
 ###Personal trainer intervention

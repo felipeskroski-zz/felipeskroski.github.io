@@ -7,9 +7,12 @@ cover-image: /assets/img/morris/cover.jpg
 categories: [work, web, mobile]
 ---
 
-<img src="/assets/img/morris/site-home.jpg" alt="William Morris website" width="100%">
-<br>
-<br>
+<div class="row outline">
+  <div class="col-md-12">
+    <img src="/assets/img/morris/site-home.jpg" alt="William Morris website" >
+  </div>
+</div>
+
 One of the greatest pattern designers of all time, William Morris – the man behind the firm Morris & Co. – led the arts and crafts movement of the late nineteenth and early twentieth centuries. He remains a remarkable figure more than a century after his death.
 
 -----

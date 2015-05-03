@@ -6,24 +6,30 @@ description: Web and mobile app to help people quit smoking
 cover-image: /assets/img/goalpost/cover.png
 categories: [work, web, mobile]
 ---
-
-<img src="/assets/img/goalpost/homepagepng.png" alt="Goalpost homepage" width="100%">
-<br>
-<br>
-<img src="/assets/img/goalpost/supporters_experience.png" alt="Goalpost supporters experience" width="100%">
-<br>
-<br>
+<div class="row outline">
+  <div class="col-md-12">
+    <img src="/assets/img/goalpost/homepagepng.png" alt="Goalpost homepage" >
+  </div>
+</div>
+ 
+<div class="row outline">
+  <div class="col-md-12">
+    <img src="/assets/img/goalpost/supporters_experience.png" alt="Goalpost supporters experience" >
+  </div>
+</div>
 
 Goalpost uses the power of social networks, game mechanics and medical research to help people become smoke-free. It is a 12-week ‘game’ with challenges and support along the way, helping users to stay motivated throughout the quit process.
 
-
-<div class="img-gallery outline">
-      <img src="/assets/img/goalpost/task-list.jpg" alt="Goalpost tasklist" width="30%">
-      <img src="/assets/img/goalpost/newsfeed.png" alt="Goalpost newsfeed" width="30%">
- 
-      <img src="/assets/img/goalpost/profile-cropped.jpg" alt="Goalpost profile" width="30%">
-
-
+<div class="row outline">
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/goalpost/task-list.jpg" alt="Goalpost tasklist" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/goalpost/newsfeed.png" alt="Goalpost newsfeed" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/goalpost/profile-cropped.jpg" alt="Goalpost profile" >
+  </div>
 </div>
 
 ###The 12 week program
@@ -34,7 +40,13 @@ The user is kept on track throughout the course with tips, tasks, challenges and
 
 Users who are struggling with a strong craving can press the ‘panic button’. An alert will go out to the Goalpost community prompting support, ideas for sitting out the craving & positive peer pressure to resist it.
 
-<img src="/assets/img/goalpost/friendsV4.png" alt="Goalpost friends invitation" width="100%">
+<div class="row outline">
+  <div class="col-md-12">
+    <img src="/assets/img/goalpost/friendsV4.png" alt="Goalpost friends invitation" >
+  </div>
+</div>
+
+
 
 ###Community support
 

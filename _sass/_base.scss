@@ -89,3 +89,14 @@ nav{
   }
 
 }
+
+.row {
+  
+  &.outline img{
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  img{
+    max-width: 100%;
+  }
+}

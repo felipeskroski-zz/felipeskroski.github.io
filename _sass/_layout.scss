@@ -20,9 +20,13 @@ PAGE SPECIFIC
     font-size: 64px;
     text-align: center;
     line-height: 1.5em;
-    margin: 100px 0 100px;
+    margin: 100px 0;
     font-weight: 100;
     color: white;
+    @media (max-width: 768px){
+      font-size: 36px;
+      margin: 50px 0;
+    }
   }
   h2{
     font-size: 18px;
@@ -83,11 +87,25 @@ PAGE SPECIFIC
     margin-bottom: 30px;
     overflow: hidden;
     max-height: 232px;
+
     @media (min-width: 960px){max-height: 190px;} 
+    @media (max-width: 768px){
+      max-height: 360px;
+      .caption{
+        position: relative;
+        bottom: 0;
+        padding: 15px;
+        
+      }
+    } 
     &:hover{
       .caption{
         display: block;
         bottom: 0;
+        *{
+          text-decoration: none; 
+        }
+        
       }
     }
   }
@@ -135,6 +153,7 @@ PAGE SPECIFIC
     img, .iphone{
       display: inline-block;
       vertical-align: top;
+
     }
     &:after{
       content: '';
@@ -173,9 +192,18 @@ PAGE SPECIFIC
       position: fixed;
       width: 39px;
       height: 27px;
-      left: 5%;
+      left: 4%;
       top: 56px;
       z-index: 1000;
+      @media (max-width: 768px){
+        background-color: white;
+        border-radius: 30px;
+        background-size: 20px auto;
+        height: 40px;
+        width: 40px;
+        top: 15px;
+        left: 15px;
+      } 
     }
     .site-title{
       height: 60px;

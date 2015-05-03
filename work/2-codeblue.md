@@ -6,22 +6,29 @@ description: Mobile app to help teenagers with depression
 cover-image: /assets/img/codeblue/cover.jpg
 categories: [work, web, mobile]
 ---
-<div class="img-gallery">
-  <img src="/assets/img/codeblue/app-landing.png" alt="Codeblue landing view" width="45%">
 
-  <img src="/assets/img/codeblue/app-send-code-blue.png" alt="Codeblue send alert view" width="45%">
+<div class="row outline">
+  <div class="col-xs-12 col-sm-6">
+    <img src="/assets/img/codeblue/app-landing.png" alt="Codeblue landing view">
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <img src="/assets/img/codeblue/app-send-code-blue.png" alt="Codeblue send alert view">
+  </div>
 </div>
 Code Blue is a simple smartphone app that acts as a mobile support crew. Designed to help teenagers get help when they most need it, lets you select a support crew who on receiving a ‘Code Blue’ will provide immediate support via text, phone, or by showing up.
 
 ###Features
-<div class="img-gallery">
-  <img src="/assets/img/codeblue/app-code-blue-sent.png" alt="Codeblue sent view" width="30%">
 
-  <img src="/assets/img/codeblue/app-alice-location.png" alt="Codeblue location view" width="30%">
-
-  <img src="/assets/img/codeblue/app-anna-status.png" alt="Codeblue status view" width="30%">
-
-  
+<div class="row outline">
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/codeblue/app-code-blue-sent.png" alt="Codeblue sent view" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/codeblue/app-alice-location.png" alt="Codeblue location view">
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/codeblue/app-anna-status.png" alt="Codeblue status view" >
+  </div>
 </div>
 
 When a Code Blue is sent out, the support crew is alerted. They can then immediately get in contact, as well as see progress updates and get tips on what to do and say in an emergancy situation.

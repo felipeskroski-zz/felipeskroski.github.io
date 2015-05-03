@@ -20,20 +20,31 @@ During that time I:
 Here's a sample of some in-house work during the time.
 
 ###CMS Mobile (concept)
-<div class="img-gallery">
-  <img src="/assets/img/silverstripe/mobile-cms.png" alt="Silverstripe mobile cms" width="30%">
-
-  <img src="/assets/img/silverstripe/mobile-reorder.png" alt="Silverstripe mobile cms" width="30%">
-
-  <img src="/assets/img/silverstripe/mobile-swipe-popup.png" alt="Silverstripe mobile cms" width="30%">
+<div class="row outline">
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/silverstripe/mobile-cms.png" alt="Silverstripe mobile cms" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/silverstripe/mobile-reorder.png" alt="Silverstripe mobile cms" >
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img src="/assets/img/silverstripe/mobile-swipe-popup.png" alt="Silverstripe mobile cms" >
+  </div>
 </div>
 
 
 ###Website
-<img src="/assets/img/silverstripe/site-home.png" alt="Silverstripe site" width="100%">
-<br>
-<br>
-<img src="/assets/img/silverstripe/site-team.png" alt="Silverstripe site" width="100%">
+<div class="row outline">
+  <div class="col-md-12">
+    <img src="/assets/img/silverstripe/site-home.png" alt="Silverstripe site" >
+  </div>
+</div>
+
+<div class="row outline">
+  <div class="col-md-12">
+    <img src="/assets/img/silverstripe/site-team.png" alt="Silverstripe site" >
+  </div>
+</div>
 
 Check it live at [silverstripe.com](http://www.silverstripe.com)
 
