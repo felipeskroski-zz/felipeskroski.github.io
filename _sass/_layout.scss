@@ -244,7 +244,7 @@ PAGE SPECIFIC
   background: $body-color;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
-  @include transition(all 0.5s ease-in-out 0s);
+  @include transition(all 0.3s ease-in-out 0s);
   &.active{
     left: 0;
     .back-btn{
@@ -260,7 +260,7 @@ PAGE SPECIFIC
     z-index: 2000;
     cursor: pointer;
     position: absolute;
-    @include transition(all 0.5s ease-in-out .3s);
+    @include transition(all 0.3s ease-in-out .3s);
     opacity: 0;
 
   }
