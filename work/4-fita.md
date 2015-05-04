@@ -26,7 +26,7 @@ categories: [work, web, mobile]
     <img src="/assets/img/fita/Task-sets.png" alt="fita home" >
   </div>
   <div class="col-xs-12 col-sm-4">
-    <img src="/assets/img/fita/help.png" alt="fita milestone" >
+    <img src="/assets/img/fita/Help.png" alt="fita milestone" >
   </div>
 </div>
 
