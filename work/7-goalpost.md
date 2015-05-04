@@ -3,7 +3,7 @@ layout: page
 title: Goalpost
 permalink: /work/goalpost/
 description: Web and mobile app to help people quit smoking
-cover-image: /assets/img/goalpost/cover.png
+cover-image: /assets/img/goalpost/cover.jpg
 categories: [work, web, mobile]
 ---
 <div class="row outline">

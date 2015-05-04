@@ -1,65 +1,77 @@
 ---
 layout: default
 ---
-<section class="main">
-  <div class="container">
-    <div class="row home">
-      <div class="col-md-12">
-        <a class="site-title text-hide" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        <h1>Solving real problems through technology, design and interaction</h1>
-        
+<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+<div class="homepage">
+  <section class="main">
+    <div class="container">
+      <div class="row home">
+        <div class="col-md-12">
+          <a class="site-title text-hide" href="{{ site.baseurl }}/">{{ site.title }}</a>
+          <h1>Solving real problems through technology, design and interaction</h1>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="work" id="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Work</h2>
+        </div>
+        <div>
+          {% for page in site.pages %}
+              {% if page.categories contains 'work' %}
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <a href="{{page.url}}">
+                      <img src="{{page.cover-image}}">
+                      <div class="caption">
+                        <h3>{{page.title}}</h3>
+                        <p>{{page.description}}</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
       </div>
     </div>
   </div>
-</section>
-<div class="work" id="work">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Work</h2>
-      </div>
-      <div>
-        {% for page in site.pages %}
-            {% if page.categories contains 'work' %}
-              <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                  <a href="{{page.url}}">
-                    <img src="{{page.cover-image}}">
-                    <div class="caption">
-                      <h3>{{page.title}}</h3>
-                      <p>{{page.description}}</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-          {% endif %}
-        {% endfor %}
-      </div>
+  <div class="profile">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          
+          <h2>Profile</h2>
+          <div class="avatar">
+            <img src="/assets/img/profile.jpg" alt="Felipe Skroski">
+          </div>
+          <h3>I'm Felipe Skroski a designer & developer based in Wellington, New Zealand. I create products for web and mobile. Working for over 12 years with organisations ranging from dynamic startups to large corporations located around the globe. 
+          <br>
+          <strong><a href="{{ site.baseurl }}/about">More →</a></strong>
+          </h3>
+          <hr class="gap">
+          <p class="centered">
+            <a href="mailto:felipeskroski@gmail.com">felipeskroski@gmail.com</a> •
+            <a href="tel:+64 021 0245 6465">+64 021 0245 6465</a> • 
+            <a href="http://twitter.com/felipeskroski">@felipeskroski</a> 
+          </p>
+        </div>
 
+      </div>
     </div>
   </div>
 </div>
-<div class="profile">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        
-        <h2>Profile</h2>
-        <div class="avatar">
-          <img src="/assets/img/profile.jpg" alt="Felipe Skroski">
-        </div>
-        <h3>I'm Felipe Skroski a designer & developer based in Wellington, New Zealand. I create products for web and mobile. Working for over 12 years with organisations ranging from dynamic startups to large corporations located around the globe. 
-        <br>
-        <strong><a href="{{ site.baseurl }}/about">More →</a></strong>
-        </h3>
-        <hr class="gap">
-        <p class="centered">
-          <a href="mailto:felipeskroski@gmail.com">felipeskroski@gmail.com</a> •
-          <a href="tel:+64 021 0245 6465">+64 021 0245 6465</a> • 
-          <a href="http://twitter.com/felipeskroski">@felipeskroski</a> 
-        </p>
-      </div>
-
+<div class="ajax-content">
+  <div class="back-btn text-hide">Back to homepage</div>
+  <div class="ajax-main">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
     </div>
   </div>
 </div>

@@ -11,6 +11,19 @@ PAGE SPECIFIC
   background: transparent url(/assets/img/poster-forest-small.jpg) no-repeat center bottom;
   background-size: cover;
 }
+.homepage{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0%;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  @include transition(all 0.3s ease-in-out 0s);
+  &.slide-left{
+    left: -100%;
+  }
+}
 .home{
   padding: 50px 0;
    
@@ -86,9 +99,9 @@ PAGE SPECIFIC
     border: none;
     margin-bottom: 30px;
     overflow: hidden;
-    max-height: 232px;
+    max-height: 240px;
 
-    @media (min-width: 960px){max-height: 190px;} 
+    @media (max-width: 960px){max-height: 190px;} 
     @media (max-width: 768px){
       max-height: 360px;
       .caption{
@@ -187,24 +200,7 @@ PAGE SPECIFIC
   .page-hero{
     padding: 50px 0;
     position: relative;
-    .back-btn{
-      background: transparent url(/assets/img/arrow-left.svg) no-repeat center center;
-      position: fixed;
-      width: 39px;
-      height: 27px;
-      left: 4%;
-      top: 56px;
-      z-index: 1000;
-      @media (max-width: 768px){
-        background-color: white;
-        border-radius: 30px;
-        background-size: 20px auto;
-        height: 40px;
-        width: 40px;
-        top: 15px;
-        left: 15px;
-      } 
-    }
+    
     .site-title{
       height: 60px;
     }
@@ -237,5 +233,38 @@ PAGE SPECIFIC
       filter: grayscale(0%);  
       opacity: 1;  
     }   
+  }
+}
+.ajax-content{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 100%;
+  height: 100%;
+  background: $body-color;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  @include transition(all 0.5s ease-in-out 0s);
+  &.active{
+    left: 0;
+    .back-btn{
+      position: fixed;
+      opacity: 1;
+    }
+  }
+  .ajax-main{
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .back-btn{
+    z-index: 2000;
+    cursor: pointer;
+    position: absolute;
+    @include transition(all 0.5s ease-in-out .3s);
+    opacity: 0;
+
+  }
+  a.back-btn{
+    display: none;
   }
 }

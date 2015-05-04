@@ -3,7 +3,7 @@ layout: page
 title: Drinksmart
 permalink: /work/drinksmart/
 description: Mobile app to help people to ease up on their drinking
-cover-image: /assets/img/drinksmart/cover.png
+cover-image: /assets/img/drinksmart/cover.jpg
 categories: [work, web, mobile]
 ---
 
