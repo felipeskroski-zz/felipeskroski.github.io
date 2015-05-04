@@ -7,10 +7,9 @@ jQuery(document).ready(function($) {
     $(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
         e.preventDefault();
         $( ".ajax-main" ).html(spinner);
+        $( ".ajax-content" ).addClass("active").scrollTop(0);
+        $(".homepage" ).addClass("slide-left");
         $( ".ajax-main" ).load( this.pathname + " .page", function( response, status, xhr ) {
-          $( ".ajax-content" ).addClass("active").scrollTop(0);
-          $(".homepage" ).addClass("slide-left");
-
           if ( status == "error" ) {
             var msg = "Sorry but there was an error: ";
             $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
