@@ -260,7 +260,7 @@ PAGE SPECIFIC
     z-index: 2000;
     cursor: pointer;
     position: absolute;
-    @include transition(all 0.3s ease-in-out .3s);
+    @include transition(opacity 0.3s ease-in-out .3s);
     opacity: 0;
 
   }

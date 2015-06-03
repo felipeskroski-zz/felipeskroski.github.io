@@ -23,7 +23,7 @@ a{
   color: $link-color;
   &:hover{
     color: $link-color;
-    text-decoration: underline; 
+    text-decoration: none; 
   }
 }
 h1{font-size: 48px; font-family: $heading-font; }
@@ -106,7 +106,7 @@ nav{
     top: 15px;
     left: 15px;
     &:active, &:hover{
-      background-color: blue;
+      background-color: #aaa;
     }
   } 
 
