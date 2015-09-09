@@ -1,14 +1,14 @@
 
 /* ----------------------------------------------------------
 **
-PAGE SPECIFIC 
+PAGE SPECIFIC
 **
 ----------------------------------------------------------*/
 
 /* Home */
 /* ----------------------------------------------------------*/
 .main{
-  background: transparent url(/assets/img/poster-forest-small.jpg) no-repeat center bottom;
+  background: transparent url(/assets/img/poster-ocean-small.jpg) no-repeat center bottom;
   background-size: cover;
 }
 .homepage{
@@ -26,16 +26,17 @@ PAGE SPECIFIC
 }
 .home{
   padding: 50px 0;
-   
+
   h1{
-    font-weight: bold !important; 
-    font-family: $heading-font; 
+    font-weight: bold !important;
+    font-family: $heading-font;
     font-size: 64px;
     text-align: center;
     line-height: 1.5em;
     margin: 100px 0;
     font-weight: 100;
     color: white;
+    text-shadow: 3px 3px 10px rgba(black, .7);
     @media (max-width: 768px){
       font-size: 36px;
       margin: 50px 0;
@@ -47,7 +48,7 @@ PAGE SPECIFIC
     text-align: center;
 
     opacity: .5;
-    max-width: 540px; 
+    max-width: 540px;
     margin: 0px auto 0px;
     font-weight: 100;
   }
@@ -56,7 +57,7 @@ PAGE SPECIFIC
 .work{
   padding: 100px 0;
   h2{
-    font-family: $heading-font; 
+    font-family: $heading-font;
     font-size: 48px;
     color: $font-color;
     text-align: center;
@@ -64,10 +65,10 @@ PAGE SPECIFIC
   }
   .caption{
     position: absolute;
-    bottom: -50%; 
+    bottom: -50%;
     height: auto;
     left: 0;
-    right: 0; 
+    right: 0;
     background: rgba(black, .7);
     display: block;
     @include transition(all 0.3s ease-in-out 0s);
@@ -75,8 +76,8 @@ PAGE SPECIFIC
 
     h3, p{
       color: white;
-      margin: 0px 10px; 
-    } 
+      margin: 0px 10px;
+    }
     h3{
       font-family: $heading-font;
       font-size: 18px;
@@ -86,14 +87,14 @@ PAGE SPECIFIC
     p{
       font-family: $primary-font;
       font-size: 14px;
-      margin: 5px 0; 
+      margin: 5px 0;
       color: rgba(white, .7);
       line-height: 1.2em;
     }
 
   }
   .thumbnail{
-    background: transparent; 
+    background: transparent;
     position: relative;
     padding: 0;
     border: none;
@@ -101,29 +102,29 @@ PAGE SPECIFIC
     overflow: hidden;
     max-height: 240px;
 
-    @media (max-width: 960px){max-height: 190px;} 
+    @media (max-width: 960px){max-height: 190px;}
     @media (max-width: 768px){
       max-height: 360px;
       .caption{
         position: relative;
         bottom: 0;
         padding: 15px;
-        
+
       }
-    } 
+    }
     &:hover{
       .caption{
         display: block;
         bottom: 0;
         *{
-          text-decoration: none; 
+          text-decoration: none;
         }
-        
+
       }
     }
   }
-  
-   
+
+
 }
 
 .profile{
@@ -132,13 +133,13 @@ PAGE SPECIFIC
   .avatar img{
     border-radius: 80px;
     height: 120px;
-    width: 120px; 
+    width: 120px;
     margin: 20px auto;
     display: block;
     margin-bottom: 50px;
   }
   h2{
-    font-family: $heading-font; 
+    font-family: $heading-font;
     font-size: 48px;
     text-align: center;
     margin: 50px 0;
@@ -149,7 +150,7 @@ PAGE SPECIFIC
     margin: auto;
     line-height: 1.8em;
     font-weight: normal;
-    font-family: $primary-font; 
+    font-family: $primary-font;
     text-align: center;
 
   }
@@ -176,7 +177,7 @@ PAGE SPECIFIC
     &.outline img{
       border: 1px solid #bbb;
     }
-    
+
   }
   .iphone{
       background: transparent url(/assets/img/iphone.svg) no-repeat center center;
@@ -200,13 +201,13 @@ PAGE SPECIFIC
   .page-hero{
     padding: 50px 0;
     position: relative;
-    
+
     .site-title{
       height: 60px;
     }
   }
   h3{
-    font-family: $heading-font; 
+    font-family: $heading-font;
     font-size: 28px;
     margin: 60px 0 20px;
   }
@@ -224,15 +225,15 @@ PAGE SPECIFIC
     display: block;
     -webkit-filter: grayscale(90%);
     -moz-filter: grayscale(90%);
-    filter: grayscale(90%); 
+    filter: grayscale(90%);
     transition: all .3s ease-in-out;
     opacity: .4;
     &:hover{
       -webkit-filter: grayscale(0%);
       -moz-filter: grayscale(0%);
-      filter: grayscale(0%);  
-      opacity: 1;  
-    }   
+      filter: grayscale(0%);
+      opacity: 1;
+    }
   }
 }
 .ajax-content{
