@@ -44,9 +44,7 @@
 
 /* Fonts */
 /* ----------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Nixie+One|Lora:400,700,400italic|Inconsolata:400,700);
-@include fontFace("geomanist", "/assets/geomanist/geomanist-bold-webfont", "normal", "bold");
-@include fontFace("geomanist", "/assets/geomanist/geomanist-regular-webfont", "normal", "normal");
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|PT+Mono|Work+Sans:400,700');
 
 
 /* Variables */
@@ -54,10 +52,10 @@
 $bg-color: #efefef;
 $font-color: #444;
 $body-color: #efefef;
-$link-color: blue;
-$heading-font: 'geomanist', Helvetica, Arial, sans-serif;
+$link-color: #2389bc;
+$heading-font: 'Work Sans', Helvetica, Arial, sans-serif;
 $primary-font: 'Lora', Helvetica, Arial, sans-serif;
-$secondary-font: 'Inconsolata', Courier, monospace;
+$secondary-font: 'PT Mono', Courier, monospace;
 
 
 
