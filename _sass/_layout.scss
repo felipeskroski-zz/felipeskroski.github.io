@@ -28,7 +28,7 @@ PAGE SPECIFIC
   padding: 50px 0;
 
   h1{
-    font-weight: bold !important;
+    font-weight: normal;
     font-family: $heading-font;
     font-size: 64px;
     text-align: center;
@@ -36,7 +36,6 @@ PAGE SPECIFIC
     margin: 100px 0;
     font-weight: 100;
     color: white;
-    text-shadow: 2px 2px 0px rgba(black, .2);
     @media (max-width: 768px){
       font-size: 36px;
       margin: 50px 0;
