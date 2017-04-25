@@ -10,7 +10,7 @@ categories: [work, web, mobile]
 An iOS, Android and responsive web app to help people track their drinking and understand the health and financial costs of it.
 
 
-###Community
+### Community
 <div class="row outline">
   <div class="col-xs-12 col-sm-6">
     <img src="/assets/img/drinksmart/android-newsfeed.png" alt="Drinksmart newsfeed">
@@ -22,7 +22,7 @@ An iOS, Android and responsive web app to help people track their drinking and u
 
 Great way for users to express themselves, exchange ideas and keep each other motivated. The newsfeed have the usual features but more tailored to that use case  
 
-###Drink tracking
+### Drink tracking
 <div class="row outline">
   <div class="col-xs-12 col-sm-4">
     <img src="/assets/img/drinksmart/android-drink-diary.png" alt="Drinksmart drink diary">
@@ -35,12 +35,12 @@ Great way for users to express themselves, exchange ideas and keep each other mo
   </div>
 </div>
 
-Users can track their drinks daily this allows them to understand how much money they spend and calories consumed. To make tracking effective we made the flow super simple 
+Users can track their drinks daily this allows them to understand how much money they spend and calories consumed. To make tracking effective we made the flow super simple
 
-###Drinkbuddy
+### Drinkbuddy
 It's one of the coolest invisible features of this app. Drinkbuddy is a semi-automated coach, part human part robot. It's robot side allows it to send automated alerts, tips and reminders for all of the users at any time depending on their drinking, day of the week and status through the direct message feature so users have the impression of receiving a message of someone real. Users can answer messages back and Community managers then talk on Drinkbuddy's behalf making it a user support channel
 
-###Messages
+### Messages
 
 <div class="row outline">
   <div class="col-xs-12 col-sm-6">
@@ -53,7 +53,7 @@ It's one of the coolest invisible features of this app. Drinkbuddy is a semi-aut
 
 Allows private conversations between users and acts as a communication channel with Drinkbuddy
 
-###Web App
+### Web App
 <div class="row outline">
   <div class="col-xs-12 col-sm-6">
     <img src="/assets/img/drinksmart/web-newsfeed.png" alt="Drinksmart messages">
@@ -66,5 +66,3 @@ The app has also a web responsive version for desktop and tablet
 
 <hr class="gap">
 Check it online at [drinksmart.io](http://www.drinksmart.io)
-
-

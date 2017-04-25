@@ -32,9 +32,9 @@ categories: [work, web, mobile]
 
 An iOS app for personal trainers and their clients. Clients login to see their exercise routines for the week, Personal trainer tracks results weekly and adjust the programs through a web interface
 
-###Personal trainer intervention
+### Personal trainer intervention
 
 The personal trainer can send users notifications and messages so they can be on top of each one of their clients progress
 
-###Program tracker
+### Program tracker
 Personal trainers can easily design custom exercise programs for their clients in a web app they can then follow the tasks, get tips on how to do them and mark when is done. Personal trainers track results and update the program accordingly.

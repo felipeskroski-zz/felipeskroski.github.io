@@ -17,7 +17,7 @@ categories: [work, web, mobile]
 </div>
 Code Blue is a simple smartphone app that acts as a mobile support crew. Designed to help teenagers get help when they most need it, lets you select a support crew who on receiving a ‘Code Blue’ will provide immediate support via text, phone, or by showing up.
 
-###Features
+### Features
 
 <div class="row outline">
   <div class="col-xs-12 col-sm-4">
@@ -34,7 +34,7 @@ Code Blue is a simple smartphone app that acts as a mobile support crew. Designe
 When a Code Blue is sent out, the support crew is alerted. They can then immediately get in contact, as well as see progress updates and get tips on what to do and say in an emergancy situation.
 
 
-###Awards
+### Awards
 
 <img src="/assets/img/codeblue/cb-results.png" alt="Mobileys award">
 
