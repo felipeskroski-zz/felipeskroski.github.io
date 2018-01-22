@@ -5,14 +5,15 @@ html {
   min-height: 100%;
 }
 body{
-  font-family: $primary-font;
-  font-size: 1.6em;
+  font-family: $heading-font;
+  font-size: 1.5em;
   color: $font-color;
   background-color: $bg-color;
   padding: 0px 0 0;
   margin: 0 0 0px;
   line-height: 2em;
-  
+  font-weight: 300;
+
 }
 body.bg-neutral{
   color: $font-color;
@@ -23,7 +24,7 @@ a{
   color: $link-color;
   &:hover{
     color: $link-color;
-    text-decoration: none; 
+    text-decoration: none;
   }
 }
 h1{font-size: 48px; font-family: $heading-font; }
@@ -49,8 +50,8 @@ article p {
   margin-top: 0;
 }
 hr{
-  background: rgba(black, 0.1);
-  border-color: rgba(black, 0.1);
+  background: rgba(black, 0.03);
+  border-color: rgba(black, 0.03);
   &.gap{
     margin-top: 100px;
   }
@@ -62,7 +63,7 @@ footer {
   height: 100px;
   width: 100%;
   font-size: .8em;
-  font-family: $primary-font;
+  font-family: $heading-font;
 }
 
 
@@ -77,10 +78,10 @@ footer {
   display: block;
 }
 nav{
-  position: absolute; 
-  top: 30px; 
-  right: 0px; 
-  font-family: $primary-font;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  font-family: $heading-font;
   font-size: 16px;
   a{
     color: $link-color;
@@ -108,11 +109,11 @@ nav{
     &:active, &:hover{
       background-color: #aaa;
     }
-  } 
+  }
 
 }
 .row {
-  
+
   &.outline img{
     border: 1px solid #ccc;
     margin-bottom: 30px;
@@ -128,8 +129,8 @@ nav{
 
   position: absolute;
   top: 50%;
-  left: 50%; 
-  margin: -20px 0 0 -20px; 
+  left: 50%;
+  margin: -20px 0 0 -20px;
 }
 
 .double-bounce1, .double-bounce2 {
@@ -141,7 +142,7 @@ nav{
   position: absolute;
   top: 0;
   left: 0;
-  
+
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
 }
@@ -157,10 +158,10 @@ nav{
 }
 
 @keyframes bounce {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% { 
+  } 50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }

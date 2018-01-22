@@ -9,7 +9,7 @@ I have been working with web design since 1998. During this time I have worked o
 
 I have a broad range of skills ranging from high level product strategy and design to implementation and coding. I'm a design graduate, hold a Marketing MBA, 2015 Techstars Alumni and self taught coder.
 
-I've managed teams of designers, developers and copywriters with different cultural backgrounds upskilling people from the most junior roles all the way up to head of design positions.
+I've managed teams of designers, developers and copywriters with different cultural backgrounds up-skilling people from the most junior roles all the way up to head of design positions.
 
 <h3>Services</h3>
 I work on a variety of different projects including (but not limited to):
@@ -28,4 +28,4 @@ I believe the most important factors to create great products are talent and pas
 
 <hr class="gap">
 
-Wanna chat? Send me an email: <a href="mailto:felipeskroski@gmail.com">felipeskroski@gmail.com</a>
+Interested? Send me an email: <a href="mailto:felipeskroski@gmail.com">felipeskroski@gmail.com</a>
