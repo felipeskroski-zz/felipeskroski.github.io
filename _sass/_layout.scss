@@ -8,8 +8,8 @@ PAGE SPECIFIC
 /* Home */
 /* ----------------------------------------------------------*/
 .main{
-  background: transparent url(/assets/img/poster-ocean-small.jpg) no-repeat center bottom;
-  background-size: cover;
+  //border-bottom: 1px solid #ddd;
+  //background-color: white;
 }
 .homepage{
   position: fixed;
@@ -30,12 +30,12 @@ PAGE SPECIFIC
   h1{
     font-weight: normal;
     font-family: $heading-font;
-    font-size: 64px;
+    font-size: 38px;
     text-align: center;
     line-height: 1.5em;
-    margin: 100px 0;
+    margin: 100px auto 100px;
     font-weight: 100;
-    color: white;
+    max-width: 660px;
     @media (max-width: 768px){
       font-size: 36px;
       margin: 50px 0;
